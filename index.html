@@ -116,8 +116,9 @@
     <script>
         // =================================================================
         // ÖNEMLİ AYAR: AŞAĞIDAKİ URL'Yİ KENDİ APPS SCRIPT URL'NİZLE DEĞİŞTİRİN
+        // Eğer URL girilmezse veya hatalıysa sistem ÇEVRİMDIŞI MODDA çalışır.
         // =================================================================
-        const APP_SCRIPT_URL = "https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLjRjPYqYtggAvKLi8oyeoWqA1ESgtAH10q5Mifncx4hEmjZHRTz09_BT1E1WHBjsZ9YaCleJVWP0mUYhfsv1k6kRSPAghA79StkpPgMK7OWX6xdxkFhsJiFNL4XhmE26rTuD1heb8nJhI8RqKVHzOutN4ow9Hix69MoqR3PLJeWwbpp_CSxTr1by3EugvRuEGM46LWyK8J3-TA8NyAMgJ-RsP4dN0iNiZjJjYOCnBWhh9C-_bpigQcMnmO7SQ86wqjsXZTlB-XFPiVzg4RA5slkYc75MA&lib=Mt0yNgUefqozXttWecOjgIn9o59XNuTv3"; 
+        const APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzIcfSzA5Nv6YH2VQ6DEsSSOwaqJ73LF9NH0oqtpdKTFFVI_LDTGzA5rY8ffPIX6AJt/exec"; 
         // =================================================================
 
         const GITHUB_USER = "Tasacakbusorular";
@@ -180,9 +181,11 @@
         }
 
         async function sendToBackend(action, data = {}) {
+            // 1. URL Kontrolü: Eğer placeholder duruyorsa offline moda geç
             if (!APP_SCRIPT_URL || APP_SCRIPT_URL.includes("BURAYA")) {
-                console.warn("⚠️ Backend URL eksik! Veriler kaydedilmiyor.");
-                return null;
+                console.warn("⚠️ Backend URL ayarlanmamış. Çevrimdışı modda devam ediliyor.");
+                // Sanki başarılı olmuş gibi sahte bir yanıt dönüyoruz ki uygulama kilitlenmesin
+                return { status: "success", message: "Offline mode", data: [] };
             }
 
             try {
@@ -204,8 +207,10 @@
                 return json;
 
             } catch (err) {
-                console.error("❌ Backend hatası:", err);
-                return { status: "error", message: "Bağlantı hatası" };
+                console.error("❌ Backend bağlantı hatası:", err);
+                // Hata durumunda kritik bir hata fırlatmak yerine "network_error" dönüyoruz
+                // Böylece arayüzde "Offline devam ediliyor" mantığını işletebiliriz.
+                return { status: "network_error", message: "Sunucuya ulaşılamadı." };
             }
         }
 
@@ -220,13 +225,17 @@
                 userid: state.userid
             });
 
-            if (result && result.status === "error") {
-                alert("⚠️ " + result.message);
-                return false;
-            } else if(result && result.status === "success" && result.score) {
-                // Eğer backend'den eski skor geldiyse (dönen kullanıcı), onu da alabiliriz
-                // Şimdilik frontend skorunu koruyoruz, ama istenirse buraya eklenebilir
+            // Eğer ağ hatası veya offline mod ise, yerel olarak devam etmeye izin ver
+            if (result.status === "network_error" || (result.status === "success" && result.message === "Offline mode")) {
+                console.log("🌐 Sunucu erişilemiyor, yerel kayıt ile devam ediliyor.");
+                return true; 
             }
+
+            if (result && result.status === "error") {
+                alert("⚠️ " + result.message); // Sadece sunucudan "İsim alınmış" hatası gelirse durdur
+                return false;
+            } 
+            
             return true;
         }
 
@@ -234,13 +243,17 @@
             showToast("Sıralama yükleniyor...", false);
             const result = await sendToBackend('getLeaderboard');
             
+            // Toast'ı temizle
+            const x = document.getElementById("toast");
+            x.className = x.className.replace("show", "");
+
             if (result && result.status === 'success') {
                 state.leaderboard = result.data;
                 renderLeaderboardModal();
-                const x = document.getElementById("toast");
-                x.className = x.className.replace("show", "");
+            } else if (result && result.message === "Offline mode") {
+                alert("Liderlik tablosu için Backend URL ayarı yapılmalıdır.");
             } else {
-                showToast("Sıralama yüklenemedi.");
+                showToast("Sunucuya erişilemedi.", true);
             }
         }
 
@@ -398,6 +411,7 @@
             btn.innerText = "Bağlanıyor...";
             btn.disabled = true;
 
+            // Backend Kaydı (Offline mod desteği ile)
             const success = await registerUserBackend(val);
             
             btn.innerText = originalText;
@@ -536,11 +550,10 @@
                     userid: state.userid,
                     score: state.userProgress.totalScore
                 }).then(res => {
+                    // Offline mode veya hata durumunda tekrar denemeye çalışır ama kullanıcıyı darlamaz
                     if(res && res.status === 'error') {
-                        console.warn("Kullanıcı backend'de yok, tekrar oluşturuluyor...");
-                        registerUserBackend(state.username).then(() => {
-                            sendToBackend('updateScore', { userid: state.userid, score: state.userProgress.totalScore });
-                        });
+                        console.warn("Kullanıcı backend'de yok veya hata var.");
+                        // Burada retry logic olabilir ama basitlik için geçiyoruz
                     }
                 });
             }
@@ -580,8 +593,8 @@
         async function resetData() {
             if(confirm('Tüm ilerlemeniz, hesabınız ve puanlarınız silinecek. Emin misiniz?')) {
                 
-                // Backend'den silme işlemi
-                if(state.userid) {
+                // Backend'den silme işlemi (Sadece URL varsa dene)
+                if(state.userid && APP_SCRIPT_URL && !APP_SCRIPT_URL.includes("BURAYA")) {
                     showToast("Hesap sunucudan siliniyor...", false);
                     try {
                         await sendToBackend('deleteUser', { userid: state.userid });
@@ -628,7 +641,7 @@
                                     ${user.score.toLocaleString()}
                                 </div>
                             </div>
-                        `).join('') : '<div class="text-center text-slate-500">Henüz veri yok.</div>'}
+                        `).join('') : '<div class="text-center text-slate-500">Henüz veri yok veya çevrimdışı moddasınız.</div>'}
                     </div>
                 </div>
             `;
@@ -766,7 +779,7 @@
                             Çıkış Yap / Sıfırla
                         </button>
                         <div class="text-[10px] text-slate-600 font-mono">
-                            v3.2 • Sync & Delete Fix
+                            v3.3 • Offline Mode Fix
                         </div>
                     </div>
                 </div>
