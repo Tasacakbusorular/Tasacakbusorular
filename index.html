@@ -58,7 +58,7 @@
         // --- AYARLAR (BURAYI KENDİ BİLGİLERİNLE DOLDUR) ---
         const GITHUB_USER = "Tasacakbusorular"; // GitHub kullanıcı adın
         const GITHUB_REPO = "Tasacakbusorular";      // Depo (Repo) adın
-        const GITHUB_FOLDER = "";       // JSON dosyalarının olduğu klasör adı
+        const GITHUB_FOLDER = "";        // JSON dosyalarının olduğu klasör adı (Boşsa ana dizin)
 
         // --- SABİTLER ---
         const POINTS = { kolay: 10, orta: 20, zor: 30 };
@@ -87,11 +87,19 @@
 
         async function fetchEpisodeList() {
             try {
-                const apiUrl = `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents/${GITHUB_FOLDER}`;
+                // Eğer klasör boş ise root (ana dizin) içeriğini çek
+                const path = GITHUB_FOLDER ? `/${GITHUB_FOLDER}` : '';
+                const apiUrl = `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents${path}`;
+                
                 const res = await fetch(apiUrl);
                 if (!res.ok) throw new Error(`GitHub Bağlantı Hatası: ${res.status}`);
                 
                 const data = await res.json();
+
+                // Dizi olup olmadığını kontrol et
+                if (!Array.isArray(data)) {
+                     throw new Error("GitHub verisi liste formatında gelmedi.");
+                }
 
                 state.episodeList = data
                     .filter(item => item.name.endsWith(".json"))
@@ -128,7 +136,7 @@
                 
                 const jsonData = await response.json();
                 state.activeEpisodeData = jsonData; 
-                state.activeEpisodeMeta = epMeta;   
+                state.activeEpisodeMeta = epMeta;    
 
                 const storageId = jsonData.id || epMeta.id; 
                 
@@ -158,18 +166,29 @@
             fetchEpisodeList(); 
         }
 
+        // --- DÜZELTİLEN FONKSİYON BURASI ---
         function startQuiz(difficulty) {
             const epData = state.activeEpisodeData;
             const storageId = epData.id || state.activeEpisodeMeta.id;
             
             if (state.gameMode === 'story' && !state.userProgress[storageId].unlocked[difficulty]) return;
 
-            if (!epData.questions || !epData.questions[difficulty]) {
+            // DÜZELTME: Senin JSON yapında "questions" anahtarı yok, direkt "kolay", "orta" kökte duruyor.
+            // Bu yüzden önce direkt kökte var mı diye bakıyoruz (epData[difficulty]).
+            // Eğer yoksa, eski yapıya göre "questions" içinde mi diye bakıyoruz.
+            
+            let pool = null;
+            if (epData[difficulty]) {
+                pool = epData[difficulty];
+            } else if (epData.questions && epData.questions[difficulty]) {
+                pool = epData.questions[difficulty];
+            }
+
+            if (!pool || pool.length === 0) {
                 alert("Bu zorluk seviyesi için soru bulunamadı!");
                 return;
             }
 
-            const pool = epData.questions[difficulty];
             state.quiz.questions = [...pool].sort(() => 0.5 - Math.random()).slice(0, 10);
             
             state.activeDifficulty = difficulty;
@@ -189,7 +208,7 @@
             const optLetter = String.fromCharCode(65 + optIndex);
             const isCorrect = optLetter === currentQ.dogru;
 
-            // Geçmişe kaydet (Yeni Özellik)
+            // Geçmişe kaydet
             state.quiz.history.push({
                 question: currentQ.soru,
                 options: currentQ.secenekler,
@@ -232,7 +251,7 @@
                 } else {
                     finishQuiz();
                 }
-            }, 1200); // Kullanıcının görmesi için biraz daha uzun süre
+            }, 1200);
         }
 
         function finishQuiz() {
@@ -256,7 +275,7 @@
             saveProgress();
             setView('result');
 
-            // Konfeti Efekti (Eğer geçildiyse)
+            // Konfeti Efekti
             if (isPassed) {
                 triggerConfetti();
             }
@@ -285,7 +304,7 @@
 
         function toggleReview() {
             state.isReviewing = !state.isReviewing;
-            renderResult(document.getElementById('app')); // Sadece sonuç ekranını yeniden çiz
+            renderResult(document.getElementById('app')); 
         }
 
         function resetData() {
@@ -365,7 +384,7 @@
                             İlerlemeyi Sıfırla
                         </button>
                         <div class="text-[10px] text-slate-600 font-mono">
-                            v2.0 • GitHub Linked
+                            v2.1 • GitHub Linked
                         </div>
                     </div>
                 </div>
@@ -424,6 +443,10 @@
             const progress = state.userProgress[storageId];
             const modeText = state.gameMode === 'story' ? 'Hikaye Modu' : 'Serbest Mod';
 
+            // JSON yapısında title yoksa dosya adını kullan
+            const displayTitle = epData.title || state.activeEpisodeMeta.titleDisplay;
+            const displayDesc = epData.desc || "Bilgini test etmeye hazır mısın?";
+
             let html = `
                 <div class="w-full max-w-md fade-in">
                     <button onclick="setView('episodeSelect')" class="mb-6 text-slate-400 hover:text-white flex items-center gap-2 text-sm transition-colors">
@@ -433,8 +456,8 @@
                     <div class="text-center mb-8 glass-panel p-6 rounded-2xl relative overflow-hidden">
                         <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-1 bg-gradient-to-r from-transparent via-blue-500 to-transparent"></div>
                         <span class="text-[10px] font-bold bg-slate-900 px-2 py-1 rounded text-blue-400 border border-slate-700 uppercase tracking-widest">${modeText}</span>
-                        <h2 class="text-2xl font-bold mt-3 text-white">${epData.title || state.activeEpisodeMeta.titleDisplay}</h2>
-                        <p class="text-slate-400 text-sm mt-1 max-w-xs mx-auto">${epData.desc || "Bilgini test etmeye hazır mısın?"}</p>
+                        <h2 class="text-2xl font-bold mt-3 text-white">${displayTitle}</h2>
+                        <p class="text-slate-400 text-sm mt-1 max-w-xs mx-auto">${displayDesc}</p>
                     </div>
                     
                     <div class="grid gap-4">
