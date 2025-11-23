@@ -1,0 +1,383 @@
+{
+  "kolay": [
+    {
+      "soru": "Dizinin başında mezun olan Elen'in mesleği nedir?",
+      "secenekler": ["Mühendis", "Doktor", "Avukat", "Öğretmen"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Elen'in sürekli konuştuğu yapay zeka uygulamasının adı nedir?",
+      "secenekler": ["Siri", "Niko", "Alexa", "Jarvis"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Dizinin geçtiği ana mekan olan köyün adı nedir?",
+      "secenekler": ["Fırtına Köyü", "Karadeniz Köyü", "Yaylalar Köyü", "Hamsi Köyü"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Köyün muhtarı olan karakter kimdir?",
+      "secenekler": ["Zarife", "Esme", "Bedriye", "Fatma"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil Koçari vurulduğunda, onu kim ameliyat edip kurtarmıştır?",
+      "secenekler": ["Oruç", "Esme", "Elen", "Veteriner"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Elen, Fırtına köyüne hangi şehirden gelmiştir?",
+      "secenekler": ["İstanbul", "Atina", "Selanik", "Londra"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme Muhtar, Adil Koçari'den ne istemektedir?",
+      "secenekler": ["Para", "Araba", "Arazi", "Ev"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Elen'in babası ölmeden önce ona ne bırakmıştır?",
+      "secenekler": ["Bir mektup", "Bir anahtar", "Bir harita", "Bir kolye"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Adil Koçari vurulduktan sonra polise verdiği ifadede ne demiştir?",
+      "secenekler": ["Esme vurdu", "Oruç vurdu", "Kendimi vurdum", "Görmedim"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Elen'in biyolojik kökleri nereye dayanmaktadır?",
+      "secenekler": ["Yunanistan", "İstanbul", "Trabzon", "İzmir"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Adil Koçari'nin köydeki lakabı veya ailesinin anıldığı isim nedir?",
+      "secenekler": ["Yangazlar", "Koçariler", "Lazlar", "Fırtınalar"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Elen'in kullandığı arabanın lastiklerine ne olmuştur?",
+      "secenekler": ["Patlatılmıştır", "Çalınmıştır", "Havası inmiştir", "Değiştirilmiştir"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Adil Koçari'yi vuran kişi aslında kimdir?",
+      "secenekler": ["Kendi", "Oruç", "Esme", "Şerif"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Elen köye ilk geldiğinde arabasıyla kime çarpmıştır?",
+      "secenekler": ["Adil Koçari", "Esme Muhtar", "Oruç", "Zarife"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme Muhtar'ın sürekli yanında olan yardımcısı/akrabası kimdir?",
+      "secenekler": ["Emine", "Fatma", "Ayşe", "Zeynep"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Elen'in babasının adı nedir?",
+      "secenekler": ["Yorgo", "Dimitri", "Gregor", "Aleks"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Adil Koçari, ameliyat sırasında neye ihtiyaç duymuştur?",
+      "secenekler": ["Su", "Kan", "Oksijen", "Ağrı kesici"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Köy halkı Elen'e neden tepki göstermektedir?",
+      "secenekler": ["Doktor olduğu için", "Genç olduğu için", "Rum/Yunan olduğu için", "Araba sürdüğü için"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Adil Koçari hastaneye gitmeyi neden reddetmiştir?",
+      "secenekler": ["Hastaneden korktuğu için", "Esme tutuklanmasın diye", "Doktorlara güvenmediği için", "Uzak olduğu için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Elen'in IQ seviyesi hakkında Adil ne düşünmektedir?",
+      "secenekler": ["Düşük olduğunu", "Ortalama olduğunu", "Çok yüksek olduğunu", "Önemsiz olduğunu"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Dizide sıkça geçen 'Fuşki' kelimesi Niko'ya göre ne anlama gelir?",
+      "secenekler": ["Güzel", "Yalan/Saçma (Bok)", "Hızlı", "Yemek"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Elen gerçek ailesini bulmak için ne yapmayı planlamaktadır?",
+      "secenekler": ["Polise gitmeyi", "Köydeki yaşlılara sormayı", "Muhtara sormayı", "İlan vermeyi"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil, Elen'e teşekkür etmek yerine ne yapmıştır?",
+      "secenekler": ["Onu kovmuştur", "Sorgulamıştır (Ajan mısın?)", "Çiçek vermiştir", "Para teklif etmiştir"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Köydeki pansiyon sahibi Elen'e neden oda vermemiştir?",
+      "secenekler": ["Oda olmadığı için", "Parası yetmediği için", "Esme Muhtar yasakladığı için", "Tadilat olduğu için"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Adil Koçari vurulduğunda hangi şarkıyı mırıldanmaktadır?",
+      "secenekler": ["Çırpınırdı Karadeniz", "Vurdum Kabanı Yukarı", "Hekimoğlu", "Gelevera Deresi"],
+      "dogru": "B"
+    }
+  ],
+  "orta": [
+    {
+      "soru": "Niko'ya göre Karadeniz insanı bir elektrik direğine çarparsa ne der?",
+      "secenekler": ["Özür dilerim", "Dikkat etsene", "Ne duruyorsun yolun ortasında", "Görmedim pardon"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Elen'in babası Gregor mektubunda Elen'e hangi gerçeği açıklamıştır?",
+      "secenekler": ["Büyük bir mirası olduğunu", "Evlatlık olduğunu ve Türk olduğunu", "Kardeşi olduğunu", "Annesinin yaşadığını"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil Koçari'nin vurulduktan sonra sağlık ocağındaki ilk müdahalesinde Oruç'un yaşadığı sorun neydi?",
+      "secenekler": ["Neşter bulamadı", "Damar yolu açtı ama sıvı gitmedi (damarlar çökmüştü)", "Elektrikler kesildi", "Adil izin vermedi"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Niko, hamsi balığı hakkında hangi biyolojik bilgiyi vermiştir?",
+      "secenekler": ["Sadece Karadeniz'de yaşar", "Planktonla beslenir", "Ortalama ömrü 5 yıldır", "Tatlı suda yaşayabilir"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme Muhtar, Adil'i vurmadan önce ondan ne talep etmiştir?",
+      "secenekler": ["Oğlunu hapisten çıkarmasını", "Arazinin tapusunu vermesini", "Köyü terk etmesini", "Silahını teslim etmesini"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil Koçari, Elen'in okulunu birincilikle bitirdiğini nereden öğrenmiştir?",
+      "secenekler": ["Oruç'tan", "Niko'dan", "Okulun web sitesinden", "Gazeteden"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Elen, Adil'e kan verirken babasının hangi sözünü hatırlatmıştır?",
+      "secenekler": ["İnsanı yaşatan umuttur", "İnsanı iki şey iyileştirir: Dua ve Müzik", "Doktor her zaman soğukkanlı olmalı", "Düşmanını sev"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Köy halkı, Elen'in Adil'in başında sabaha kadar beklemesini nasıl yorumlamıştır?",
+      "secenekler": ["Büyük bir fedakarlık", "Görev bilinci", "Aralarında bir ilişki/sevdalık olduğu", "Casusluk yaptığı"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Esme'nin kocasının (veya oğlunun babasının) ölümünden kim sorumlu tutulmaktadır?",
+      "secenekler": ["Adil'in babası", "Oruç'un babası", "Zarife", "Devlet"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Dizinin sonunda Esme'nin kendi kendine konuştuğu sahnede ortaya çıkan büyük sır nedir?",
+      "secenekler": ["Adil'in kardeşi olduğu", "Adil'in aslında Elen'in babası olduğu", "Elen'in, Esme'nin öldü sanılan kızı olduğu", "Arazide altın olduğu"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Elen köye gelirken Niko ile konuşmasında 'Yangaz' kelimesinin anlamını ne olarak tartışmışlardır?",
+      "secenekler": ["Yaramaz çocuk", "Düşman / Şeytan", "Yabancı", "Komşu"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme Muhtar, Adil'i vurduktan sonra silahı kime doğrultmuştur?",
+      "secenekler": ["Kendi kafasına", "Oruç'a", "Elen'e", "Havaya"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Elen, Adil'in kan grubunun ne olduğunu öğrenmiştir?",
+      "secenekler": ["0 Negatif", "A Pozitif", "B Negatif", "Rh Pozitif (Grubu belirtilmemiş, sadece Rh söylenmiş)"],
+      "dogru": "D"
+    },
+    {
+      "soru": "Adil, Elen'in yaşını öğrendiğinde neden şaşırmıştır?",
+      "secenekler": ["Çok yaşlı olduğu için", "Doktor olmak için çok genç olduğu için", "Yalan söylediğini düşündüğü için", "Kendi yaşıyla aynı olduğu için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Pazarda domates satan köylü kadın, Elen'e domates satmayı neden reddetmiştir?",
+      "secenekler": ["Domates bittiği için", "Esme'den korktuğu ve Elen 'düşman dostu' olduğu için", "Elen'in parası olmadığı için", "Domatesler çürük olduğu için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç ve Sevcan'ın ilişkisindeki engel nedir?",
+      "secenekler": ["Ailelerin düşmanlığı", "Yaş farkı", "Oruç'un mesleği", "Sevcan'ın evli olması"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Adil'in adamı, Elen'in arabasını tamir ettirdikten sonra Elen ne yapmıştır?",
+      "secenekler": ["Parayı kabul etmiştir", "Teşekkür edip gitmiştir", "Borcunu ödemek istemiştir", "Arabayı satmıştır"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Elen'in annesini bulmak için ilk stratejisi nedir?",
+      "secenekler": ["Nüfus müdürlüğüne gitmek", "Köydeki yaşlılara o tarihteki hamileleri sormak", "Cami imamına sormak", "İnternetten araştırmak"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme, Elen pansiyona geldiğinde ne yapmıştır?",
+      "secenekler": ["Ona oda vermiştir", "Pansiyon sahibine oda vermemesi için baskı yapmıştır", "Yemek ısmarlamıştır", "Görmezden gelmiştir"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil, Elen'e neden 'Gavur Kızı' diye hitap etmektedir?",
+      "secenekler": ["İsmini bilmediği için", "Yunanistan'dan geldiği ve Rum olduğu için", "Onu sevdiği için", "Köy adeti olduğu için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Elen'in babası Gregor'un mesleği neydi?",
+      "secenekler": ["Doktor", "Mühendis", "Balıkçı", "Papaz"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Bölüm sonunda çalan ve Adil ile Elen'in yakınlaşmasında etkili olan enstrüman nedir?",
+      "secenekler": ["Kemençe", "Tulum", "Gitar", "Mızıka (Adil ıslıkla/ağızla müzik yapar)"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Esme'nin Adil'e karşı koz olarak kullandığı 'Şerif' kimdir?",
+      "secenekler": ["Esme'nin hapisteki oğlu/kocası", "Köyün delisi", "Jandarma komutanı", "Adil'in kardeşi"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Elen, Adil'e kan verirken Adil ne görmüştür (sanrı olarak)?",
+      "secenekler": ["Annesini", "Elen ile evlendiğini/nişanlandığını", "Babasını", "Öldüğünü"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Niko'nun Elen'e verdiği 'fiski' kelimesinin doğru telaffuzu nedir?",
+      "secenekler": ["Fışkı", "Fuşki", "Fişki", "Fosfor"],
+      "dogru": "B"
+    }
+  ],
+  "zor": [
+    {
+      "soru": "Adil Koçari sağlık ocağına getirildiğinde nabzı ve tansiyonu kaç olarak ölçülmüştür?",
+      "secenekler": ["Nabız 100, Tansiyon 12/8", "Nabız 138, Tansiyon 78'e 45", "Nabız 120, Tansiyon 90'a 60", "Nabız 80, Tansiyon 110'a 70"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Elen'in doğum tarihi tam olarak nedir?",
+      "secenekler": ["15 Mayıs 2005", "1 Ocak 2000", "23 Nisan 2003", "19 Mayıs 2004"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Niko'ya göre dişi hamsiler üreme döneminde kaç yumurta bırakır?",
+      "secenekler": ["1000-2000", "3000-4000", "5000-6000", "100-200"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Elen tıp fakültesine kaç yaşında başlamıştır?",
+      "secenekler": ["18", "16", "14", "12"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Elen'in IQ (Zeka) puanı kaçtır?",
+      "secenekler": ["140", "150", "165", "175"],
+      "dogru": "D"
+    },
+    {
+      "soru": "Adil'in, Elen'in pansiyonda kalamadığını görünce mırıldandığı ve 'dört bir yanımı' diye biten şarkı sözlerinde kime seslenmektedir?",
+      "secenekler": ["Azrail'e", "Esme'ye", "Annesine", "Denize"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Ameliyat sonrası Adil'in iyileşme seyri raporda nasıl kaydedilmiştir?",
+      "secenekler": ["Kritik", "Olumlu", "Stabil değil", "Kötüye gidiyor"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme'nin Adil'i tehdit ederken kullandığı 'Aytepe' detayı neyle ilgilidir?",
+      "secenekler": ["Kan hakkı hesaplaşmasıyla", "Düğün yeriyle", "Piknik alanıyla", "Mezarlıkla"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Elen'in mezun olduğu okulun tam adı nedir (Adil'in telaffuzuna göre)?",
+      "secenekler": ["Atina Tıp Fakültesi", "Acropolis University of Medicine", "Yunanistan Devlet Üniversitesi", "Selanik Tıp Akademisi"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Doktor Oruç, Adil'e ilk müdahaleyi yaparken hangi sıvıyı bağlamaya çalışmıştır?",
+      "secenekler": ["İzotonik", "Ringer Laktat", "Dekstroz", "Kan Plazması"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Niko'nun Karadeniz şivesi simülasyonunda kullandığı cümle tam olarak nasıldır?",
+      "secenekler": ["Ne bakaysun ula?", "Ulan ne fuşki yemeye durursun yolumun ortasında", "Çekil da yolumdan", "Ha buradan git uşağım"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Elen'in babası Gregor'un cenazesine annesi neden katılamamıştır?",
+      "secenekler": ["Hasta olduğu için", "Ameliyatta olduğu (hayat kurtardığı) için", "Ülke dışına çıkamadığı için", "Öldüğü için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Köyde Elen'in fotoğrafını çekip gruba atan ve dedikoduyu yayan karakter kimdir?",
+      "secenekler": ["Sevcan", "Emine", "Zarife", "Muhtar"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Adil'in babasına kaç kurşun sıkılmıştır (Adil'in ifadesine göre)?",
+      "secenekler": ["3", "6", "9", "12"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme'nin kendi kendine konuştuğu sahnede, Adil'in Elen'in çocuğu olduğunu öğrenmemesi gerektiğini söylerken kullandığı ifade nedir?",
+      "secenekler": ["O kızdan kurtulacağız", "Onu buradan süreceğiz", "Onu öldüreceğiz", "Ona gerçeği söylemeyeceğiz"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Elen'in 'Seni kimin kızı olduğumu bulmadan gitmeyeceğim' dediği sahnede, Adil ona hangi cevabı vermiştir (iç sesiyle veya mırıldanarak)?",
+      "secenekler": ["Gitmelisin", "Hoşçakal", "Kalbim seninle", "Eyvallah Rum kızı"],
+      "dogru": "D"
+    },
+    {
+      "soru": "Adil'in kanaması tekrar başladığında Elen hangi tıbbi terimi kullanarak çözüm önermiştir?",
+      "secenekler": ["Direkt Transfüzyon", "Bypass", "Anjiyo", "Diyaliz"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Bölümün en sonunda çalan 'Taşacak Bu Deniz' türküsünün sözlerinde 'Sen barutsun ben ...' boşluğuna ne gelmektedir?",
+      "secenekler": ["Su", "Ateş", "Toprak", "Hava"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Elen'in babasının mektubunda Elen'in doğum yeri olarak neresi geçmektedir?",
+      "secenekler": ["İstanbul", "Trabzon", "Atina", "Rize"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme Muhtar, Adil'in 'araziyi alacağım' tehdidine karşı 'O leşin ...' diyerek cümlesini nasıl tamamlamıştır?",
+      "secenekler": ["Denize dökülecek", "Daha buraya gömülecek", "Köpeklerine yem olacak", "Köy meydanında sallanacak"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, Adil'e müdahale ederken yaralanmayı nasıl tanımlamıştır?",
+      "secenekler": ["Sıyrık", "Penetran yaralanma", "Künt travma", "Yanık"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil'in adamı 'Gezep' lakaplı karakterin asıl görevi/yeteneği nedir (veya neyi ile bilinir)?",
+      "secenekler": ["Keskin nişancı olması", "Sinirlenince ellerinin titremesi ve dalması", "Çok iyi araba sürmesi", "Çok güzel yemek yapması"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Elen'in kan verirken babasından alıntı yaptığı, 'Ağlıyorsam ağlamayı keser misin?' sorusunu içeren anı neyle ilgilidir?",
+      "secenekler": ["Müzikle / Mızıka çalmasıyla", "Masal anlatmasıyla", "Resim yapmasıyla", "Dans etmesiyle"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Adil'in rüyasında/sanrısında Elen'i hangi kıyafetle görmüştür?",
+      "secenekler": ["Doktor önlüğü", "Gelinlik / Yöresel kıyafet", "Polis üniforması", "Okul forması"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme'nin final sahnesinde Adil için söylediği 'Cehenneme koyamadım diye üzülmüyorum, çünkü...' cümlesinin devamı nasıldır?",
+      "secenekler": ["Zaten oradasın", "Şerif'le evlendiğim gün girdin sen cehenneme", "Benim cehennemim sensin", "Ölüm kurtuluştur"],
+      "dogru": "B"
+    }
+  ]
+}
