@@ -1,0 +1,1134 @@
+{
+  "kolay": [
+    {
+      "soru": "Eleni denize düştüğünde onu kurtaran kişi kimdir?",
+      "secenekler": ["Adil", "İso", "Oruç", "Şerif"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Eleni'nin mesleği nedir?",
+      "secenekler": ["Öğretmen", "Doktor", "Mühendis", "Hemşire"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Fırtına köyünün muhtarı kimdir?",
+      "secenekler": ["Zarife", "Esme", "Şirin", "Sevcan"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Fadime'yi kaçıran kişi kimdir?",
+      "secenekler": ["Oruç", "İso", "Behçet", "Temel"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil Koçari'nin hapiste olan düşmanı kimdir?",
+      "secenekler": ["Şerif Fırtına", "Oruç Fırtına", "Temel Kaptan", "İso Fırtına"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Eleni'nin annesinin adı nedir?",
+      "secenekler": ["Sofia", "Melina", "Maria", "Elena"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Zarife Fırtına'nın oğulları kimlerdir?",
+      "secenekler": ["Oruç ve İso", "Adil ve Behçet", "Temel ve Dursun", "Şerif ve Ali"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Eleni'nin kullandığı yapay zeka/asistan sisteminin adı nedir?",
+      "secenekler": ["Alex", "Siri", "Niko", "Zeus"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Adil Koçari, Fırtına ailesinden neyi talep etmektedir?",
+      "secenekler": ["Para", "Arazi", "Ev", "Araba"],
+      "dogru": "B"
+    },
+    {
+      "soru": "İso, Fadime'yi kaçırdıktan sonra ona ne ikram etmiştir?",
+      "secenekler": ["Çay ve simit", "Sandviç ve meyve suyu", "Lahmacun", "Pide"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil Koçari, Fadime'nin kaçırılmasına karşılık neyi yakmıştır?",
+      "secenekler": ["Evi", "Arabayı", "Çaylıkları", "Tekneyi"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Eleni'nin hafızasını kaybetmesine neden olan olay nedir?",
+      "secenekler": ["Araba kazası", "Başına darbe alıp denize düşmesi", "Zehirlenme", "Yüksekten düşme"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Sevcan kime yorgan hediye etmiştir?",
+      "secenekler": ["Esme'ye", "Bedriye Teyze'ye", "Zarife'ye", "Eleni'ye"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, İso'yu nerede bulmuştur?",
+      "secenekler": ["Yayladaki evde", "Sürünün altında", "Mağarada", "Ormanda"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil Koçari'nin kardeşi kimdir?",
+      "secenekler": ["Esme", "Fadime", "Zarife", "Sevcan"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Zarife Fırtına, Esme'ye ceza olarak ne yaptırmıştır?",
+      "secenekler": ["Yemek yapma", "Yorgan dikme", "Çay toplama", "Evi temizleme"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni'nin gerçek annesi nerede yaşamaktadır?",
+      "secenekler": ["Atina'da", "Selanik'te", "İstanbul'da", "Londra'da"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Kamera kayıtlarına bakmak için gidilen kaptanın adı nedir?",
+      "secenekler": ["Dursun", "Temel", "İdris", "Yusuf"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme, kamera kayıtlarının olduğu SD kartı ne yapmıştır?",
+      "secenekler": ["Saklamıştır", "Polise vermiştir", "Denize atmıştır", "Oruç'a vermiştir"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Şerif Fırtına hapisten ne zaman çıkacaktır?",
+      "secenekler": ["Bir ay sonra", "Yarın", "Bir yıl sonra", "Belli değil"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç'un mesleği nedir?",
+      "secenekler": ["Öğretmen", "Mühendis", "Doktor", "Kaptan"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Fadime'nin kesilen şeyi nedir?",
+      "secenekler": ["Parmağı", "Saçı (Örü)", "Elbisesi", "Çantası"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil, İso'nun canını bağışlamak karşılığında kimden arazisini istemiştir?",
+      "secenekler": ["Zarife'den", "Şirin Fırtına'dan", "Esme'den", "Sevcan'dan"],
+      "dogru": "B"
+    },
+    {
+      "soru": "İso, Fadime'yi neden kaçırmıştır?",
+      "secenekler": ["Fidyek için", "Aşık olduğu için", "İntikam için", "Araziyi geri almak için"],
+      "dogru": "D"
+    },
+    {
+      "soru": "Eleni'yi korumak için kapıda nöbet tutan kimdir?",
+      "secenekler": ["Polis", "Koçari'nin adamları", "Jandarma", "Köylüler"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Bölüm sonunda Adil Koçari kimi izlemektedir?",
+      "secenekler": ["Zarife'yi", "Oruç'u", "Esme'yi", "Eleni'yi"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Eleni'nin kafasındaki travmaya ne denmiştir?",
+      "secenekler": ["Beyin kanaması", "Retrograt amnezi", "Kırık", "Çatlak"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil ve Esme geçmişte nerede buluşurlardı?",
+      "secenekler": ["Çaylıkta", "Balıkçı barınağında", "Okulda", "Yaylada"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Zarife'nin lakabı nedir?",
+      "secenekler": ["Melek Zarife", "Hırçın Zarife", "Şeytan Zarife", "Sessiz Zarife"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Oruç, İso'yu kurtarmak için hangi işlemi yapmıştır?",
+      "secenekler": ["Kalp masajı", "Göğüs tüpü (Drenaj)", "Suni teneffüs", "Ameliyat"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Yanık çaylıklardan tahmini zarar ne kadardır?",
+      "secenekler": ["1 Milyon", "10 Milyon", "50 Milyon", "100 Milyon"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Eleni hangi ülkenin vatandaşıdır?",
+      "secenekler": ["İtalya", "Yunanistan", "Bulgaristan", "Gürcistan"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç ve Eleni nerede çalışmaktadır?",
+      "secenekler": ["Okulda", "Sağlık Ocağında", "Fabrikada", "Belediyede"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Şerif Fırtına kaç yıldır hapistedir?",
+      "secenekler": ["5 yıldır", "10 yıldır", "15 yıldır", "20 yıldır"],
+      "dogru": "D"
+    },
+    {
+      "soru": "Adil Koçari ne kralı olarak anılır?",
+      "secenekler": ["Çay kralı", "Hayvancılık kralı", "Fındık kralı", "İnşaat kralı"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Fırtına ailesi ne kralı olarak anılır?",
+      "secenekler": ["Çay kralı", "Balıkçılık kralı", "Turizm kralı", "Orman kralı"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Eleni'nin babası ne zaman ölmüştür?",
+      "secenekler": ["Savaşta", "Eleni küçükken", "Geçen yıl", "Doğumda"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil, Esme'yi ne yaparken görmüştür?",
+      "secenekler": ["Ağlarken", "SD kartı denize atarken", "Oruç ile konuşurken", "Çay toplarken"],
+      "dogru": "B"
+    },
+    {
+      "soru": "İso'nun tam adı nedir?",
+      "secenekler": ["İsmet", "İskender", "İsmail", "İlyas"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Adil, Fadime'yi kimden istemiştir?",
+      "secenekler": ["Şerif'ten", "Oruç'tan", "Esme'den", "Zarife'den"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Esme'nin kocası kimdir?",
+      "secenekler": ["Adil", "Şerif", "Temel", "Dursun"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Bölümde sık sık geçen 'Gaybana' kelimesi ne anlama gelir?",
+      "secenekler": ["Güzel", "Uğursuz/Kötü", "Zengin", "Yabancı"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, Eleni'ye ne getirmiştir?",
+      "secenekler": ["Çiçek", "Doğum kayıt listesi", "Yemek", "İlaç"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Melina, Eleni'ye ne mesajı göndermiştir?",
+      "secenekler": ["Seni seviyorum", "Tehlikedesin", "Eve dön", "Para gönderdim"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil Koçari, Fırtınaların arazisini ne yapmak için istemektedir?",
+      "secenekler": ["Otel yapmak", "Çay ekmek", "Yol geçirmek", "Ev yapmak"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Hangi karakter sürekli türkü söylemektedir?",
+      "secenekler": ["Adil", "Oruç", "Zarife", "Sevcan"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Behçet kimdir?",
+      "secenekler": ["Köyün delisi", "Fırtınaların adamı", "Adil'in adamı", "Eleni'nin koruması"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni'nin Türkçe'si nasıldır?",
+      "secenekler": ["Hiç bilmiyor", "Çok az biliyor", "Aksanlı ama iyi", "Ana dili gibi"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Oruç ve İso arasındaki akrabalık bağı nedir?",
+      "secenekler": ["Kuzen", "Kardeş", "Baba-Oğul", "Amca-Yeğen"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Şirin Fırtına kimdir?",
+      "secenekler": ["Oruç'un eşi", "Evin en büyüğü/Babaanne", "Esme'nin kızı", "Köyün öğretmeni"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni'yi kim öldürmeye çalışmıştır? (Bölüm sonu itibarıyla şüphelenilen)",
+      "secenekler": ["Adil", "Bilinmiyor / Gizemini koruyor", "Oruç", "Fadime"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Zarife, İso'nun yerini neden söylemiştir?",
+      "secenekler": ["Korktuğu için", "Oruç istediği için", "Şirin Fırtına zorladığı için", "Para için"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Eleni, Oruç'u nasıl biri olarak tanımlamıştır?",
+      "secenekler": ["Korkak", "Vahşi", "Nazik", "Komik"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme, Adil'in arabasına binip nereye gitmiştir?",
+      "secenekler": ["Polise", "Hastaneye", "Adil'in evine (Konağa)", "Yaylaya"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Adil'in Fadime'ye hediye ettiği 'şey' nedir?",
+      "secenekler": ["Kolye", "Yakacak depo (Benzin/Mazot)", "Telefon", "Silah"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni'nin soyadı nedir?",
+      "secenekler": ["Papadopoulos", "Miryano", "Kalis", "Zorba"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, Eleni'ye pansuman yaparken Eleni ne hissetmiştir?",
+      "secenekler": ["Gıdıklanma", "Acı", "Soğuk", "Hiçbir şey"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Bölümde kaç dönüm çaylık yanmıştır?",
+      "secenekler": ["10", "20", "30", "40"],
+      "dogru": "D"
+    },
+    {
+      "soru": "Esme neden muhtar olmuştur?",
+      "secenekler": ["Kocası hapiste olduğu için", "Çok sevildiği için", "Zengin olduğu için", "Adil istediği için"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Melina'nın mesleği nedir?",
+      "secenekler": ["Doktor", "Avukat", "Ev hanımı", "Şarkıcı"],
+      "dogru": "A"
+    },
+    {
+      "soru": "İso, Oruç tarafından nasıl kurtarılmıştır?",
+      "secenekler": ["Hastaneye götürülerek", "Olay yerinde müdahale edilerek", "Helikopterle alınarak", "İlaç verilerek"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Zarife'nin çay fabrikası kiminle ortaktır?",
+      "secenekler": ["Adil ile", "Şerif ile", "Esme ile", "Devlet ile"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Temel Kaptan'ın takasında ne vardır?",
+      "secenekler": ["Radar", "Güvenlik kamerası", "Uydu telefonu", "Sonar"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil, Esme'ye ne zaman aşık olmuştur?",
+      "secenekler": ["Geçen yıl", "Çocukken", "Askerde", "Hapiste"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni'nin kafasına vurulduğunda ne dinliyordu?",
+      "secenekler": ["Müzik", "Annesinin sesli mesajını", "Radyo", "Haberler"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, İso'yu kurtarırken hangi aleti kateter yerine kullanmıştır?",
+      "secenekler": ["Pipet", "Enjektör", "Kalem", "Bıçak"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Yangın nereye sıçramıştır?",
+      "secenekler": ["Evlere", "Ormana", "Depoya", "Okula"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Esme, Adil'in evine girerken ne yapmıştır?",
+      "secenekler": ["Besmele çekip sağ ayağıyla girmiştir", "Ayakkabılarını çıkarmıştır", "Kapıyı tekmelemiştir", "Zili çalmıştır"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Fadime, Esme'yi affetmiş midir?",
+      "secenekler": ["Evet", "Hayır", "Kısmen", "Cevap vermemiştir"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni'nin korumalığını yapanlar kimlerdir?",
+      "secenekler": ["Jandarma", "Adil'in adamları", "Özel güvenlik", "Oruç"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni'nin Türkiye'ye geliş amacı nedir?",
+      "secenekler": ["Tatil", "Gerçek ailesini bulmak", "İş gezisi", "Tıbbi konferans"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç'un Niko ile konuşma tarzı nasıldır?",
+      "secenekler": ["Resmi", "Kaba", "Arkadaşça/Samimi", "Korkak"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Esme'nin Adil'in evinde yediği yemek nedir?",
+      "secenekler": ["Mıhlama", "Mısır ekmeği ve yemek", "Balık", "Pide"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil, İso'yu neyin altına atmıştır?",
+      "secenekler": ["Arabanın", "Sürünün (Hayvan sürüsü)", "Kayaların", "Suyun"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme, SD kartı neden yok etmiştir?",
+      "secenekler": ["Görüntüde kendini gördüğü için", "Görüntüde kardeşini (Sevcan'ı) gördüğü için", "Kart bozuk olduğu için", "Adil istediği için"],
+      "dogru": "B"
+    }
+  ],
+  "orta": [
+    {
+      "soru": "Niko'nun hesaplamasına göre mesai bitimine 5 dakika kala hasta gelme ihtimali nedir?",
+      "secenekler": ["%10", "%2", "%50", "%5"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil Koçari, Fırtına ailesine ait araziyi almak için nasıl bir strateji izlemiştir?",
+      "secenekler": ["Para teklif etmiştir", "İso'nun hayatını pazarlık konusu yapmıştır", "Mahkemeye vermiştir", "Köy halkını kışkırtmıştır"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme, Oruç'a kamera kayıtlarında ne olduğunu söylemiştir?",
+      "secenekler": ["Kayıtların bozuk olduğunu", "Görüntüde kimsenin olmadığını", "Kayıtları kaybettiğini", "SD kartın yandığını"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Niko'ya göre Fadime'nin kesilen saç örgüsünde tahminen kaç tel saç vardır?",
+      "secenekler": ["1.000", "4.000", "10.000", "40.000"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil Koçari, Fadime'nin saçındaki her bir tel için ne kadar bedel biçmiştir?",
+      "secenekler": ["100 TL", "10 metre arazi", "10 metrekare çaylık (yanmış)", "1 ağaç"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Eleni'nin annesi Melina, Eleni'nin babasının cenazesine neden katılmamıştır?",
+      "secenekler": ["Hasta olduğu için", "Ameliyatta olduğu için", "Uçak bulamadığı için", "Eleni izin vermediği için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil'in Esme'ye geçmişte verdiği söz neydi?",
+      "secenekler": ["Onu kaçıracağına dair", "Ona Fırtına konağından daha güzel bir konak yapacağına dair", "Onu doktor yapacağına dair", "Ona dünyaları vereceğine dair"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, İso'yu kurtarmak için 'trakostomi' tüpü yerine ne kullanmıştır?",
+      "secenekler": ["Kalem gövdesi", "Serum hortumu", "Pipet", "Bambu kamışı"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme, Adil'in evine gittiğinde Adil ona nasıl davranmıştır?",
+      "secenekler": ["Onu hemen kovmuştur", "Ona yemek ikram etmiş ve konuşmuştur", "Ona silah çekmiştir", "Onu görmezden gelmiştir"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Zarife, İso'nun yerini söylemek zorunda kaldığında Şirin Fırtına'ya hangi seçimi sunmuştur?",
+      "secenekler": ["Ya para ya arazi", "Ya oğlun (Şerif) ya torunun (İso)", "Ya ev ya çaylık", "Ya ben ya Esme"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni, Oruç'a annesinin telefonunu neden açmadığını düşündüğünü söylemiştir?",
+      "secenekler": ["Telefonu bozuk olduğu için", "Tehlikede olduğu için bilerek açmadığını", "Kendisine küstüğü için", "Şarjı bittiği için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Melina'nın asistanı Mikail, Eleni'nin korumaları hakkında ne bilgi vermiştir?",
+      "secenekler": ["Onların polis olduğunu", "Adil Koçari'nin adamları olduğunu", "Rus mafyası olduğunu", "Zararsız köylüler olduğunu"],
+      "dogru": "B"
+    },
+    {
+      "soru": "İso, Fadime'yi kaçırma sebebini nasıl açıklamıştır?",
+      "secenekler": ["Ona aşık olduğu için ve abisinden isteyemediği için", "Fidye istemek için", "Yurt dışına kaçmak için", "Sadece korkutmak için"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Esme, kamera kayıtlarını izlerken Sevcan'ın ne yaptığını görmüştür?",
+      "secenekler": ["Balık tuttuğunu", "Eleni'ye vurup denize attığını", "Eleni ile sohbet ettiğini", "Tekneyle kaçtığını"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil'in 'Hayaller ve Hayatlar' diyerek Eleni'ye sormak istediği şey nedir?",
+      "secenekler": ["Tıp fakültesi birincisi olup burada keçi çobanı tedavi etmesi durumu", "Türkiye'yi beğenip beğenmediği", "Annesini bulup bulamadığı", "Evlenmeyi düşünüp düşünmediği"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Bedriye Teyze rüyasında ne gördüğünü söyleyerek Sevcan'dan yorgan almıştır?",
+      "secenekler": ["Aksakallı dede", "Peygamber", "Melek", "Kendi annesi"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Sevcan, Bedriye Teyze'ye yorganı ne karşılığında vermiştir?",
+      "secenekler": ["5000 TL", "Bedava (Sadaka niyetine)", "Bir koli yumurta", "Tereyağı"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, 2005 yılında doğum yapan annelerin listesini neye göre elemiştir?",
+      "secenekler": ["Sadece erkek çocuğu olanları", "Çocukları ölenleri veya yanında olanları eleyerek", "Sadece zenginleri", "Sadece Fırtına soyadlıları"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni'nin annesi Melina, Eleni'yi arayıp 'tehlikedesin' dediğinde nereden bilgi almıştır?",
+      "secenekler": ["Falcıdan", "Rüyasında görmüştür", "Mikail'den aldığı istihbaratla değil, Eleni'yi izlettirdiği anlaşılmaktadır", "Bilinmiyor, ama Eleni'yi takip ettirdiği kesin"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Adil Koçari, Fırtınaların çay fabrikasının deposunu neden yaktırmıştır?",
+      "secenekler": ["Çay fiyatları düştüğü için", "Fadime'nin saçının kesilmesine misilleme olarak", "Sigortadan para almak için", "Yanlışlıkla"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme'nin Adil ile geçmişte kaçamamasının sebebi nedir?",
+      "secenekler": ["Adil'in gelmemesi", "Esme'nin vazgeçip başkasıyla evlenmesi", "Ailenin yakalaması", "Arabanın bozulması"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç'un Niko'ya 'biraderim' demesi Niko'nun nasıl tepki vermesine yol açmıştır?",
+      "secenekler": ["Sistemi çökmüştür", "Hiç tepki vermemiştir", "Oruç'u düzeltmiştir", "Karşılık vermiştir"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Temel Kaptan'ın 'bedava bir şey yapması' neden şaşırtıcıdır?",
+      "secenekler": ["Çok zengin olduğu için", "Çok cimri/paragöz olduğu bilindiği için", "Çok yardımsever olduğu için", "Kimseyi sevmediği için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Zarife Fırtına, Şerif hapisten çıkınca ne olacağından korkmaktadır?",
+      "secenekler": ["Şerif'in tekrar hapse gireceğinden", "Oğullarının zarar göreceğinden", "Şerif'in Esme'yi öldüreceğinden", "Köyden kovulacaklarından"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni, Oruç'a neden 'Vahşi' demiştir?",
+      "secenekler": ["Çok bağırdığı için", "İso'yu sürünün altına attıkları/ezdirdikleri için", "Kaba konuştuğu için", "Yemek yemediği için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Sevcan'ın kamerada görünmesinin nedeni nedir?",
+      "secenekler": ["Sabah pazara gitmesi", "Gece Eleni'yi takip etmesi", "Kocasıyla buluşması", "Balık tutması"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme, Sevcan'a 'kardeşimsın' diyerek ne yapmıştır?",
+      "secenekler": ["Onu polise ihbar etmiştir", "Onun suçunu örtbas etmiştir", "Ona tokat atmıştır", "Ona para vermiştir"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Melina, Mikail'e telefonunu neden kapattığını söylemiştir?",
+      "secenekler": ["Şarjı bittiği için", "Eleni'nin onu takip ettiğini anlamaması için", "Adil'den korktuğu için", "Uçakta olduğu için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç'un hastaya müdahalesi sırasında 'enjektör'ü ne amaçla kullanmıştır?",
+      "secenekler": ["İlaç vermek için", "Kateter yerine hava tahliyesi için", "Kan almak için", "Su vermek için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil, 'Bir o bir ben kalsam yine o kadına bakmam' dediği kişi kimdir?",
+      "secenekler": ["Zarife", "Esme", "Şirin", "Eleni"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Fırtına ailesinin 50 milyonluk zararı neyden kaynaklanmaktadır?",
+      "secenekler": ["Borsa kaybından", "Yanan çay deposu ve çaylıklardan", "Çalınan altınlardan", "Batan gemiden"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme, kamera kayıtlarını izledikten sonra kartı neden kırmıştır?",
+      "secenekler": ["Kart sıkıştığı için", "Sinirlendiği için", "Delil yok etmek için", "Yanlışlıkla"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Oruç, anneleri listelerken 'Müzeyyen Akçalı' ismini neden elemiştir?",
+      "secenekler": ["Çocuğu erkek olduğu için", "Kızı vefat ettiği için", "Yurt dışında olduğu için", "Hiç doğurmadığı için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Şerif Fırtına hapisten çıktığında ilk olarak neyi sormuştur?",
+      "secenekler": ["Çocuklarını", "Parayı", "Yanan çaylıkların hesabını", "Esme'yi"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Adil, Esme'nin 'muhtarlık' yapmasıyla ilgili nasıl bir yorumda bulunmuştur?",
+      "secenekler": ["Çok yakıştığını söylemiştir", "Kariyerini bıraktın özüne mi döndün demiştir", "Tebrik etmiştir", "Kıskanmıştır"],
+      "dogru": "B"
+    },
+    {
+      "soru": "İso'nun klinik durumu hakkında Niko ne demiştir?",
+      "secenekler": ["Durumu kritik", "Stabil, iyileşme seyri olumlu", "Ölmek üzere", "Ameliyat gerekli"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil, Fadime ile konuşurken 'helallik' konusunda ne demiştir?",
+      "secenekler": ["Hakkını helal ettiğini", "Kıyamete kadar helallik olmadığını", "Düşüneceğini", "Para karşılığı helal edeceğini"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Melina, Eleni'nin korumasını kime emanet etmeyi planlamaktadır?",
+      "secenekler": ["Polise", "Adil Koçari'ye", "Kendi adamlarına", "Türk hükümetine"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme'nin Adil'in evine girmesi neden büyük bir olaydır?",
+      "secenekler": ["Ev çok uzak olduğu için", "İki aile kan davalı/düşman olduğu için", "Adil evde olmadığı için", "Yasak olduğu için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni, Oruç'a annesinin işkolik olduğunu nasıl anlatmıştır?",
+      "secenekler": ["Beni hiç aramazdı", "Beni öpmeye bile vakti olmazdı", "Sürekli tatile giderdi", "Beni yatılı okula verdi"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil'in Esme'ye olan duyguları hakkında Oruç ne düşünmektedir?",
+      "secenekler": ["Nefret ettiğini", "Hala aşık olduğunu", "Umursamadığını", "Korktuğunu"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Şerif Fırtına'nın hapisten çıkışını kimler karşılamaya gitmeyi planlamaktadır?",
+      "secenekler": ["Sadece Esme", "Tüm Fırtına ailesi", "Adil Koçari", "Köy halkı"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Fadime, Esme'nin özür dilemesini nasıl karşılamıştır?",
+      "secenekler": ["Samimi bulmamış ve reddetmiştir", "Kabul edip sarılmıştır", "Ağlamıştır", "Odayı terk etmiştir"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Oruç, Eleni'ye neden 'Sen barutsun ben ateş' demiştir?",
+      "secenekler": ["Birlikte tehlikeli olduklarını ima etmek için", "Ona iltifat etmek için", "Kavga ettikleri için", "Şaka yapmak için"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Adil, Oruç'u tehdit eden Zarife'ye ne demiştir?",
+      "secenekler": ["Ananı zapt et", "Oğlunu al git", "Polisi ara", "Arazimi ver"],
+      "dogru": "A"
+    },
+    {
+      "soru": "İso'nun kaburgası akciğerine ne yapmıştır?",
+      "secenekler": ["Ezmiştir", "Zarını delmiştir (Pnömotoraks)", "Sıkıştırmıştır", "Hiçbir şey"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, annesinin (Zarife'nin) İso'yu kurtarmasına izin vermemesi üzerine ne yapmıştır?",
+      "secenekler": ["Vazgeçmiştir", "Zorla herkesi dışarı atıp müdahale etmiştir", "Başka doktor çağırmıştır", "Hastaneye götürmüştür"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni, Oruç'a 'Neden telefonlarımı açmıyorsun?' dediğinde Oruç ne cevap vermiştir?",
+      "secenekler": ["Meşguldüm", "Vahşiyiz ya ondan", "Duymadım", "Telefonum bozuk"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Bölümde çalan 'Sür diye sefayı hep ben çektim cefayı' türküsü kime ithafen çalıyor gibi durmaktadır?",
+      "secenekler": ["Eleni'ye", "Adil ve Esme'nin geçmişine", "Oruç'a", "İso'ya"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni'nin hafızasının yerine gelmesi için Oruç ne demiştir?",
+      "secenekler": ["Doktora gidelim", "Zamanla gelir merak etme", "Uyu geçer", "İlaç al"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil'in Fırtınalara verdiği '40 dönüm' mesajı neye dayanmaktadır?",
+      "secenekler": ["Rastgele bir sayı", "4000 saç teli x 10 metre hesabı", "Fadime'nin yaşı", "Borç miktarı"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Sevcan, Bedriye Teyze'ye yorganı verirken neyi amaçlamıştır?",
+      "secenekler": ["Para kazanmak", "İyilik yapmak", "Başının gözünün sadakası olsun diye (belayı defetmek)", "Yorganı beğenmediği için"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Melina'nın 'Kızımı yaşatmayacaklar' düşüncesi neye dayanmaktadır?",
+      "secenekler": ["Eleni'nin mesajlarına", "Kendi geçmişine/bildiklerine", "Falcıya", "Haberlere"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil Koçari'nin evine giden Esme, kapıda ne demiştir?",
+      "secenekler": ["Açın kapıyı", "Ben geldim", "Destur/Besmele (İçinden)", "Korkuyorum"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Oruç, Eleni'nin annesini ararken hangi dilde mesaj bırakmıştır?",
+      "secenekler": ["İngilizce", "Yunanca", "Türkçe", "Fransızca"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Şerif Fırtına, Esme'ye 'Dilin fazla uzadı' diyerek ne yapmıştır?",
+      "secenekler": ["Ona sarılmıştır", "Onu tehdit etmiştir", "Gülmüştür", "Para vermiştir"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni, Oruç'a pansuman yaparken Oruç neden acı hissetmemeye çalışmıştır?",
+      "secenekler": ["Erkekliğe yediremediği için", "Gerçekten acımadığı için", "Uyuşturucu aldığı için", "Bayıldığı için"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Bölüm sonunda çalan müzik eşliğinde Esme'nin ruh hali nasıldır?",
+      "secenekler": ["Mutlu", "Çaresiz ve pişman", "Kızgın", "Heyecanlı"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil, Fırtınalarla olan 'arazi' meselesini nasıl çözmüştür?",
+      "secenekler": ["Parayla satın alarak", "Şirin Fırtına'nın İso için araziyi vermesiyle", "Mahkeme kararıyla", "Vazgeçerek"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, Eleni'nin başında beklerken ne yapmıştır?",
+      "secenekler": ["Uyumuştu", "Kitap okumuştur", "Nöbet tutmuştur", "Oyun oynamıştır"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Adil'in 'Benim seninle işim olmaz' demesine rağmen Esme'ye bakışları ne anlatmaktadır?",
+      "secenekler": ["Hala onu sevdiğini", "Ondan nefret ettiğini", "Onu tanımadığını", "Ona acıdığını"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Sevcan, Esme'ye 'Ablamsın diye sustum' dediğinde Esme ne hissetmiştir?",
+      "secenekler": ["Rahatlama", "Suçluluk ve öfke", "Mutluluk", "Gurur"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil'in adamları neden Eleni'yi korumaktadır?",
+      "secenekler": ["Para aldıkları için", "Adil emrettiği için", "Eleni'yi sevdikleri için", "Devlet görevi olduğu için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç ve Eleni arasındaki ilişki nasıl ilerlemektedir?",
+      "secenekler": ["Düşmanca", "Romantik bir çekimle", "Sadece iş arkadaşlığı", "Abi-kardeş gibi"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Bölümde geçen 'Sürünün altı olmaz' deyimi ne anlama gelir?",
+      "secenekler": ["Sürü yavaş gitmez", "Sürünün altına atılan sağ çıkmaz/ezilir", "Sürü durmaz", "Sürü büyüktür"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni, hastanedeki kayıtları kimin sayesinde inceleyebilmiştir?",
+      "secenekler": ["Başhekim", "Niko", "Hemşire", "Polis"],
+      "dogru": "B"
+    },
+    {
+      "soru": "İso, Fadime'ye kaçırma olayını açıklarken neyden bahsetmiştir?",
+      "secenekler": ["Gusül abdesti aldığından", "Çok zengin olduğundan", "Silahı olduğundan", "Arabasından"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Oruç, İso'yu kurtardıktan sonra aile üyelerine ne demiştir?",
+      "secenekler": ["Teşekkür beklemiştir", "Onları kovmuştur", "'Allah razı olsun'u duyunca yumuşamıştır", "Para istemiştir"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Adil, Fırtınaların evine geldiğinde Şirin Fırtına'ya ne sormuştur?",
+      "secenekler": ["Nasılsın?", "Seçim yap: Şerif mi İso mu?", "Çay var mı?", "Esme nerede?"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni'nin 'Travmadan önceki hafızam gitti' demesi üzerine Oruç ne demiştir?",
+      "secenekler": ["Kötü olmuş", "Gelir gelir merak etme", "Doktora gidelim", "Unut gitsin"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Sevcan, Oruç'a yakalanmamak için kamerada ne yaptığını iddia etmiştir?",
+      "secenekler": ["Balık tuttuğunu", "Yürüyüş yaptığını", "Kocasını beklediğini", "Yıldızları izlediğini"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Esme'nin SD kartı imha etmesi hukuken ne suçudur?",
+      "secenekler": ["Hırsızlık", "Delil karartma", "Yalan beyan", "Haneye tecavüz"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil Koçari'nin karakteri genel olarak nasıl çizilmiştir?",
+      "secenekler": ["Yumuşak başlı", "Otoriter, sert ama adaletli (kendince)", "Korkak", "Kararsız"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Fadime'nin abisine olan sadakati nasıldır?",
+      "secenekler": ["Onu hiç sevmez", "Ondan korkar ama sever", "Ona çok bağlıdır, sözünden çıkmaz", "Onu polise şikayet eder"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Oruç'un Eleni'ye karşı korumacı tavrı neyi göstermektedir?",
+      "secenekler": ["Ona aşık olmaya başladığını", "Sadece görevini yaptığını", "Adil'den korktuğunu", "Para beklediğini"],
+      "dogru": "A"
+    }
+  ],
+  "zor": [
+    {
+      "soru": "Niko'nun kaydına göre İso'nun tansiyonu kaçtır?",
+      "secenekler": ["120'ye 80", "95'e 64", "110'a 70", "100'e 60"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Niko'nun kaydına göre İso'nun nabzı (ritmik) kaçtır?",
+      "secenekler": ["72", "86", "90", "100"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Niko'ya göre o gün hiç hasta gelmediği varsayılırsa, mesai bitimine 5 dakika kala gelen hastanın EKG cihazına ihtiyaç duyma ihtimali nedir?",
+      "secenekler": ["Yüzde 1", "Binde 1", "Binde 5", "Yüzde 10"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil Koçari'nin Esme'ye 'Bana da Adil Koçari demesinler' diye bitirdiği yemin ne hakkındaydı?",
+      "secenekler": ["Şerif'i öldürmek", "Fırtınalardan daha güzel bir konak yapıp Esme'yi gelin getirmek", "Köyün ağası olmak", "Fadime'yi okutmak"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç'un anneleri elediği listede 'Leman Aydın'ın oğlu nerede çalışmaktadır?",
+      "secenekler": ["Almanya'da", "İstanbul'da", "Rusya'da inşaatta", "Gemide"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Listede adı geçen 'Fatma Dursun Ali'nin oğlu nerededir?",
+      "secenekler": ["Okulda", "Askerde", "Hapiste", "Yurt dışında"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Listede adı geçen 'Gülsüm Ayanoğlu'nun kızı hakkındaki detay nedir?",
+      "secenekler": ["Doktordur", "Nişanlıdır, yakında gelin gidecektir", "Öğretmendir", "Hastadır"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Sevcan, Bedriye Teyze'ye yorganı verirken 'başının gözünün sadakası olsun' demiştir. Bu, bilinçaltında neyin göstergesidir?",
+      "secenekler": ["Çok cömert olduğunun", "İşlediği suçun (Eleni'yi itmek) vicdan azabı ve kefareti", "Bedriye teyzeyi çok sevdiğinin", "Yorganı satamadığının"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil Koçari'nin Fadime'ye verdiği 'yakacak depo' hediyesi aslında ne mesajı taşımaktadır?",
+      "secenekler": ["Kışın üşümemesi için", "Fadime'nin saçına karşılık yakılan çaylıkların bedelinin ödendiği (intikam)", "Arabanın benzini bitmesin diye", "Fadime seyahat etsin diye"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Niko'nun Eleni'nin düşüşüyle ilgili 'ses kaydı alması' için ne gereklidir?",
+      "secenekler": ["Otomatik kayıt", "Özellikle komut verilmesi", "Yüksek ses algılaması", "Nabız yükselmesi"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni, babasının cenazesi sırasında annesinin ne yaptığını hatırlamıştır?",
+      "secenekler": ["Ağladığını", "Ameliyatta olduğunu", "Tatile gittiğini", "Uyuduğunu"],
+      "dogru": "B"
+    },
+    {
+      "soru": "2005 yılında Fırtına köyünde doğum yapan kadın sayısı kaçtır?",
+      "secenekler": ["20", "35", "48", "52"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Adil'in çay bardağı sorusuna Esme'nin verdiği tepki, aralarındaki hangi detayı gösterir?",
+      "secenekler": ["Esme'nin çay sevmediğini", "Adil'in Esme'yi hala çok iyi tanıdığını (Kristal mi kesme mi?)", "Bardakların kırık olduğunu", "Çayın bayat olduğunu"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, İso'ya müdahale ederken akciğer zarını delen şey neydi?",
+      "secenekler": ["Kurşun", "Bıçak", "Kırık kaburga parçası", "Taş"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Melina, Mikail'e 'Türkler nasıl söylerler?' diyerek hangi deyimi sormuştur?",
+      "secenekler": ["Damlaya damlaya göl olur", "İti ite kırdırmak", "Sakla samanı gelir zamanı", "Öfkeyle kalkan zararla oturur"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Sevcan, Eleni'yi iterken Eleni'nin çantasını ne yapmıştır?",
+      "secenekler": ["Denize atmıştır", "Alıp kaçmıştır", "Kayalıklarda bırakmıştır", "Yakmıştır"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Adil Koçari, Zarife'ye gönderdiği adamla ne mesajı iletmiştir?",
+      "secenekler": ["Savaşı bitirelim", "Saçın her teli için bir çaylık yakacağım", "Fadime'yi geri verin", "Polise gitmeyin"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, Eleni'ye 'Senin doğduğun yılda doğum yapmış bütün Fırtınalı kadınların listesi'ni getirirken, Eleni'nin doğum yılı kaçtır?",
+      "secenekler": ["2000", "2003", "2005", "1999"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Eleni, 'Gama dalgaları' hakkında ne demiştir?",
+      "secenekler": ["Uyku getirir", "İnsan ölmeden önce beynindeki gama dalgaları yüzünden en çok vuran anı hatırlar", "Rüya görmeyi sağlar", "Hafızayı siler"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Temel Kaptan'ın ilacı (ağrı kesici) eczanede ne kadardır?",
+      "secenekler": ["50 TL", "80 TL", "100 TL", "Ücretsiz"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil, 'Müzeyyen Akçalı'nın kızı 'Melek' hakkında ne bilgi vermiştir?",
+      "secenekler": ["Hala yaşadığını", "5 yaşında amansız hastalıktan öldüğünü", "Eleni olduğunu", "Yurt dışına kaçırıldığını"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Sevcan, kamerada görünmemek için ne giymiştir (veya kamerada neyle görünmüştür)?",
+      "secenekler": ["Siyah bir pardösü", "Tanınmamak için özel bir şey değil, sadece karanlıkta seçilmiyor", "Yüzünü kapatmıştır", "Kamerada Sevcan net olarak görünmemektedir, sadece bir gölge/karartı vardır"],
+      "dogru": "D"
+    },
+    {
+      "soru": "Mikail, Eleni'nin korumaları için 'Kralın nesi?' benzetmesini yapmıştır?",
+      "secenekler": ["Askerleri", "Prensleri", "Şövalyeleri", "Piyonları"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Şerif Fırtına, Esme'ye 'Beni dendlirme' derken neyi kastetmiştir?",
+      "secenekler": ["Beni güldürme", "Beni delirtme/sinirlendirme", "Beni oyalama", "Beni kandırma"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç'un 'Trakostomi' yapacak ekipmanı olmadığı için kullandığı 'pet şişe suyu' ne işe yaramıştır?",
+      "secenekler": ["Hastaya içirmek için", "Hortumun ucunu suya daldırıp içeri hava girmesini (su altı drenajı mantığı) engellemek için", "Yarayı yıkamak için", "Elini yıkamak için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Zarife Fırtına, İso'yu kurtaran Oruç'a ne zaman teşekkür etmiştir?",
+      "secenekler": ["Hemen", "İso nefes almaya başlayınca 'Allah razı olsun' diyerek", "Hiç etmemiştir", "Hastanede"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil, Esme'ye 'Bir gün elbet anlarsın' türküsünü söylerken Esme ne yapmaktadır?",
+      "secenekler": ["Ona eşlik etmektedir", "Ağlamaktadır (içten içe) / Hüzünlüdür", "Gülmektedir", "Uyumaktadır"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Şerif Fırtına'nın hapisten çıktığında giydiği kıyafet nasıldır? (Genel atmosfer)",
+      "secenekler": ["Takım elbise", "Eşofman", "Yöresel kıyafet", "Üniforma"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Niko'nun 'envanter kontrolü' uyarısında henüz test edilmeyen cihaz hangisidir?",
+      "secenekler": ["Tansiyon aleti", "EKG cihazı", "Ultrason", "Röntgen"],
+      "dogru": "B"
+    },
+    {
+      "soru": "İso'nun kaçırıldığı ve ezildiği yer neresidir?",
+      "secenekler": ["Köy meydanı", "Yayladaki ev / Sürünün olduğu yer", "Liman", "Çay fabrikası"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, Eleni'ye 'Barut ve Ateş' benzetmesini yaparken, 'İki deli yan yana dünyayı yakalım' sözüyle neyi kastetmiştir?",
+      "secenekler": ["Romantik bir teklif", "Birlikte hareket etme/sinerji oluşturma potansiyelleri", "Gerçekten yangın çıkarmak", "Kavga etmek"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Melina'nın 'Kızımı katilinden koruyabilecek tek kişi sensin' dediği kişi kimdir?",
+      "secenekler": ["Oruç", "Adil Koçari", "Mikail", "Şerif"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil Koçari'nin kardeşi Fadime'nin saçının kesilmesi olayında, Adil'in 'yere düşen her saç teli için bedel ödetme' yeminini tutma şekli nasıldır?",
+      "secenekler": ["Para alarak", "Misliyle (yakarak) ödeterek", "Saçlarını kazıtarak", "Özür dileterek"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme'nin SD kartı kırmadan önce izlediği görüntülerde Sevcan'ın elinde ne görünmektedir?",
+      "secenekler": ["Bıçak", "Silah", "Sadece ittiği görülmektedir (net bir obje belirtilmemiştir, eylem ön plandadır)", "Fener"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Şerif, hapisten çıktığı gün Oruç'a karşı nasıl bir tavır sergilemiştir?",
+      "secenekler": ["Ona sarılmıştır", "Ona 'Şerefsiz uşağım' diyerek kızmıştır (Adil'e arazi verildiği için)", "Onu tebrik etmiştir", "Onu görmezden gelmiştir"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, Eleni'nin annesini ararken 'Gama dalgaları' konusunu ne zaman açmıştır?",
+      "secenekler": ["Annesine ulaşamayınca", "Eleni babasının cenazesini anlatınca", "Yemek yerken", "Uyurken"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil'in evindeki 'taş kaydırma' sahnesi neyi simgelemektedir?",
+      "secenekler": ["Adil'in gücünü", "Geçmişte Esme ile oynadıkları bir oyunu/anı", "Evin zenginliğini", "Sıkıldıklarını"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Sevcan'ın 'Abla yapma, yaktın beni' yakarışına Esme'nin cevabı ne olmuştur?",
+      "secenekler": ["Seni affediyorum", "Gözümle gördüm, masumu denize atıp gittin", "Oruç'a söyleyeceğim", "Polise gideceğiz"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Bölümde 'Hadi yürü Sevcan, ne diyeceksiniz?' diyerek Oruç'un onları sıkıştırdığı sahnede Sevcan ne yapmıştır?",
+      "secenekler": ["İtiraf etmiştir", "Bayılmıştır/Fenalaşmıştır", "Kaçmıştır", "Gülmüştür"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme'nin 'Bu düşmanlık ezeli ebedi var' sözüne Adil'in cevabı ne olmuştur?",
+      "secenekler": ["Evet var", "Sen o yangını harlattın", "Barışabiliriz", "Unutalım"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, Niko'ya Eleni'nin 'annesinden gelen son mesajı' açtırmıştır. Mesajın tam içeriği nasıldır?",
+      "secenekler": ["Kızım nasılsın?", "Eleni orası senin için tehlikeli bir yer, başına bir şey gelecek diye korkuyorum", "Paraya ihtiyacın var mı?", "Babanın mirası seni bekliyor"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Şirin Fırtına'nın 'Ya oğlun ya torunun' seçimi yapmak zorunda kalması, hangi olayın sonucudur?",
+      "secenekler": ["İso'nun Fadime'yi kaçırması ve Adil'in intikamı", "Şerif'in hapisten çıkması", "Çaylıkların yanması", "Eleni'nin düşmesi"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Adil, Esme'ye 'Sen benimle konuş ya da konuşma, ben sana derim ki...' diyerek neyi sorgulamıştır?",
+      "secenekler": ["Neden evlendin?", "Oruç'u neden gece eve (bornozla) aldın?", "Yemeği beğendin mi?", "Şerif ne zaman çıkıyor?"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni'nin 'Sür diye sefayı' şarkısını söylemesi (veya arka planda çalması) hangi duygu durumunu pekiştirmiştir?",
+      "secenekler": ["Neşe", "Hüzün ve geçmişe özlem (Adil-Esme aşkı)", "Korku", "Öfke"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil'in 'Benim kimseye kafayı taktığım falan yok' savunmasına Oruç'un cevabı ne olmuştur?",
+      "secenekler": ["İnandım", "Hristiyan olmasa takacaksın yani?", "Yalan söyleme", "Fadime ne olacak?"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Zarife, Şerif hapisten çıkınca ne yapmayı planlamaktadır?",
+      "secenekler": ["Kurban kesmeyi", "Şerif'in cezasını (Eleni'yi itene) vermesini", "Köyden kaçmayı", "Düğün yapmayı"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Temel Kaptan, Oruç'a 'Ben emekliyim verecek devlet' derken neyi kastetmiştir?",
+      "secenekler": ["Emekli maaşını", "İlaç parasını devletin ödeyeceğini", "Kendi borcunu", "Vergi borcunu"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil, Fadime'ye 'Hangi abi kardeşine intikam şansı sunar?' derken neyi vurgulamıştır?",
+      "secenekler": ["Fadime'nin eline silah verdiğini", "Fadime'ye 'yakacak depo' vererek Fırtınaların malını yakma fırsatı verdiğini", "Fadime'yi tatile gönderdiğini", "Fadime'ye araba aldığını"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç, İso'yu kurtarırken kardeşi (İso) için 'Sürünün altına atlarım, tamam onu şimdi unut' diyerek ne yapmaya çalışmıştır?",
+      "secenekler": ["İso'yu tehdit etmiştir", "Kendi duygularını bastırıp sadece doktorluğuna odaklanmaya çalışmıştır", "Annesini sakinleştirmiştir", "Adil'e mesaj vermiştir"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme, SD kartı kırıp denize atarken 'Kimi koruyorsun Esme?' diye kendi kendine konuşmuştur. Bu iç hesaplaşma neyi gösterir?",
+      "secenekler": ["Adil'i koruduğunu", "Kardeşi Sevcan'ı korumakla vicdanı arasında kaldığını", "Kendini koruduğunu", "Oruç'u koruduğunu"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil'in 'Lafı ağzımdan almaya geldin' diyerek Esme'ye çıkışması, Esme'nin hangi niyetini açığa çıkarmıştır?",
+      "secenekler": ["Yemek yemek", "İso'nun yerini öğrenmek (veya İso'yu kurtarmak için pazarlık yapmak)", "Eleni'yi görmek", "Şerif'i sormak"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Niko'nun Oruç'a 'İzin verdiği sürece kayıtlarıma ulaşabilirsin' dediği kişi kimdir?",
+      "secenekler": ["Melina", "Eleni", "Adil", "Polis"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Bölümün en sonunda Esme'nin denize bakışı ve müzik, gelecek bölüm için neyin habercisidir?",
+      "secenekler": ["Büyük bir fırtınanın (mecazi veya gerçek) kopacağının ve sırların yükünün", "Mutlu sonun", "Düğün hazırlığının", "Barışın"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Adil, Şirin Fırtına'ya 'Hangi kanın benim?' diye sorarken neyi kastetmiştir?",
+      "secenekler": ["Hangi çocuğun senden?", "Oğlun (Şerif) veya torunun (İso) arasında kimi feda edeceksin?", "Kan grubun ne?", "Yaralı mısın?"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Fadime, İso'nun elinden yemek yemeyi neden reddetmiştir?",
+      "secenekler": ["Tok olduğu için", "Zehirli olduğunu düşündüğü için", "İso'nun elini 'mundar' (kirli/günahkar) gördüğü için", "Diyeti olduğu için"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Oruç, Eleni'nin annesinin 'Tehlikedesin' mesajını duyduğunda ilk tepkisi ne olmuştur?",
+      "secenekler": ["İnanmamıştır", "Hemen polisi aramıştır", "Eleni'ye 'Ara onu' demiştir (sorgulamaya başlamıştır)", "Gülmüştür"],
+      "dogru": "C"
+    },
+    {
+      "soru": "Zarife Fırtına'nın 'Koçari'ye araziyi sattım' yalanını söylemesi (veya gerçeği çarpıtması) aile içinde nasıl karşılanmıştır?",
+      "secenekler": ["Herkes çok sevinmiştir", "Şerif çok kızmıştır", "Kimse umursamamıştır", "Oruç desteklemiştir"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni'nin 'Ben barutsun sen ateş' metaforunu kullanırken Oruç'un 'Bir kibrit mi çaksak?' demesi karakterlerin hangi özelliğini yansıtır?",
+      "secenekler": ["Korkusuzluklarını ve birbirlerine olan çekimlerini", "Kundakçı olduklarını", "Sigara içtiklerini", "Üşüdüklerini"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Adil'in Esme'ye 'Yeminimi tutmadım' demesinin altındaki asıl sebep nedir?",
+      "secenekler": ["Parasının yetmemesi", "Esme'nin başkasıyla evlenmesiyle yeminin anlamını yitirmesi ('Öyle değildi o yemin')", "Konağı yapamaması", "Fırtınaları sevmesi"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç'un Niko'ya 'Senin o Yunan anan...' diye başlayan cümlesinde ima ettiği şüphe nedir?",
+      "secenekler": ["Annesinin aslında Türk olduğu", "Annesinin Eleni'ye komplo kurduğu veya bildiği bir şeyler olduğu", "Annesinin fakir olduğu", "Annesinin hasta olduğu"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil, 'Bu dünyada bir o bir ben kalsam' sözüyle Esme'ye olan aşkını inkar etse de, Esme'nin cevabı ('Anladım, çok fena ayarsın') neyi gösterir?",
+      "secenekler": ["Esme'nin inandığını", "Esme'nin Adil'in yalan söylediğini ve hala onu sevdiğini bildiğini (ironi)", "Esme'nin korktuğunu", "Esme'nin umursamadığını"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Fadime'nin saçının '4000 tel' olduğu bilgisi hikayede nasıl bir dönüm noktası yaratmıştır?",
+      "secenekler": ["Fadime'nin kuaföre gitmesine", "Adil'in Fırtınalara vereceği zararın (40 dönüm) matematiksel gerekçesine", "Oruç'un saç saymasına", "Eleni'nin saçını boyatmasına"],
+      "dogru": "B"
+    },
+    {
+      "soru": "İso'nun 'Gusül abdesti aldım' savunması neye karşı yapılmıştır?",
+      "secenekler": ["Namaz kılmak için", "Fadime'nin 'mundar el' hakaretine karşı temiz olduğunu kanıtlamak için", "Denize girmek için", "Ölmek üzere olduğu için"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Sevcan'ın kamerada 'balık tuttuğu' yalanının çökmesi an meselesiyken Esme'nin müdahalesi neyi sağlamıştır?",
+      "secenekler": ["Gerçeğin ortaya çıkmasını", "Sevcan'ın geçici olarak kurtulmasını ama Esme'nin vicdan yükü altına girmesini", "Adil'in öğrenmesini", "Eleni'nin hatırlamasını"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Bölüm boyunca 'Fırtına' ve 'Koçari' soyadlarının çatışması, temel olarak ne üzerine kuruludur?",
+      "secenekler": ["Sadece arazi anlaşmazlığı", "Geçmişe dayalı kan davası, aşk ve güç mücadelesi", "Futbol takımı rekabeti", "Siyasi görüş ayrılığı"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Adil'in 'Sür diye sefayı hep ben çektim cefayı' türküsünü söylerken gözlerinin dolması, izleyiciye ne hissettirmektedir?",
+      "secenekler": ["Adil'in çok iyi bir şarkıcı olduğunu", "Esme'ye olan aşkının ve çektiği acının derinliğini", "Yorulduğunu", "Uykusunun geldiğini"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni'nin 'Hatırlamıyorum' demesine rağmen bazı anlık 'flashback'ler (geriye dönüşler) yaşaması, senaryoda neye işaret eder?",
+      "secenekler": ["Hafızasının tamamen silindiğine", "Hafızasının yavaş yavaş geri geldiğine ve katili yakında hatırlayacağına", "Yalan söylediğine", "Rüya gördüğüne"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Zarife'nin 'Oğlumu mezara koyarken sen Fadime'yi sağ salim getireceksin' şartı kime koşulmuştur?",
+      "secenekler": ["Esme'ye", "Adil'e (dolaylı olarak, Oruç üzerinden)", "Şirin Fırtına'ya", "Polise"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Oruç'un 'Doktor da hasta yok burada' diyerek Eleni'yi alıp götürmeye çalışması, karakterinin hangi yönünü gösterir?",
+      "secenekler": ["İnatçı ve görev odaklı", "Kıskanç", "Tembel", "Korkak"],
+      "dogru": "A"
+    },
+    {
+      "soru": "Adil'in 'Yunan kızı sen yakacaksın ama düşmanların acısını ondan çıkaracak' kehaneti nasıl gerçekleşmiştir?",
+      "secenekler": ["Eleni evi yakmıştır", "Eleni yüzünden (dolaylı olarak) çaylıklar yanmıştır ve olaylar büyümüştür", "Eleni kimseyi yakmamıştır", "Düşmanlar barışmıştır"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Esme'nin kocası Şerif hapisten çıkınca 'Buraya ayak basmayacak' dediği yer neresidir?",
+      "secenekler": ["Köy kahvesi", "Pansiyon / Kendi işlettiği yer", "Cami", "Adil'in evi"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Bölümde 'Hamsi' veya 'Karadeniz' metaforları dışında, karakterlerin ruh halini anlatan en belirgin doğa olayı nedir?",
+      "secenekler": ["Güneş", "Fırtına (hem soyad hem hava durumu)", "Kar", "Deprem"],
+      "dogru": "B"
+    },
+    {
+      "soru": "İso'nun 'Sürünün altında ezilmesi' cezası, Adil Koçari'nin hangi özelliğini vurgular?",
+      "secenekler": ["Hayvanseverliğini", "Acımasız ve 'kısasa kısas' (ilkel/geleneksel) adalet anlayışını", "Dikkatsizliğini", "Şakacı olduğunu"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Eleni'nin 'Benimle ülkesine dönmeye karar verecek ya da...' diye plan yapan kişi (Melina), aslında neyi hedeflemektedir?",
+      "secenekler": ["Eleni'nin mutluluğunu", "Eleni'yi kullanarak bir intikamı veya planı gerçekleştirmeyi (Fırtınalara ders vermek)", "Tatil yapmayı", "Adil ile evlenmeyi"],
+      "dogru": "B"
+    },
+    {
+      "soru": "Oruç'un Niko ile konuşurken 'Benim de çok iyi bildiğim gibi sağa dokunan yanar' sözü kime atıftır?",
+      "secenekler": ["Kendisine", "Eleni'ye (veya genel olarak kadınlara/ateşe)", "Adil'e", "İso'ya"],
+      "dogru": "B"
+    }
+  ]
+}
+
