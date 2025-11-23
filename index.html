@@ -42,15 +42,34 @@
 
         .correct-glow { box-shadow: 0 0 15px rgba(34, 197, 94, 0.4); }
         .wrong-glow { box-shadow: 0 0 15px rgba(239, 68, 68, 0.4); }
+
+        /* Yeni eklenen marquee stili (kayan yazı gerekirse) veya sabit footer için */
+        .fixed-disclaimer {
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(8px);
+            border-top: 1px solid rgba(234, 179, 8, 0.2);
+        }
     </style>
 </head>
 <body>
 
-    <div id="app" class="wave-bg flex flex-col items-center p-4 sm:p-8">
+    <!-- App Container'a alttan boşluk (pb-20) ekledim ki sabit uyarı içeriği kapatmasın -->
+    <div id="app" class="wave-bg flex flex-col items-center p-4 sm:p-8 pb-24">
         <!-- Yükleniyor Ekranı (Başlangıçta görünür) -->
         <div class="flex flex-col items-center justify-center h-screen">
             <div class="loader mb-4"></div>
             <p class="text-slate-400 animate-pulse">Bölümler GitHub'dan Çekiliyor...</p>
+        </div>
+    </div>
+
+    <!-- SABİT UYARI BANDI (Sitenin her yerinde görünür) -->
+    <div class="fixed-disclaimer fixed bottom-0 left-0 w-full z-50 py-3 px-4 text-center shadow-[0_-5px_20px_rgba(0,0,0,0.5)]">
+        <div class="max-w-2xl mx-auto flex items-start justify-center gap-3 text-xs sm:text-sm text-slate-300">
+            <i data-lucide="bot" class="text-yellow-500 shrink-0 mt-0.5" width="16" height="16"></i>
+            <p>
+                <span class="text-yellow-500 font-bold">YAPAY ZEKA UYARISI:</span> 
+                Bu sorular AI ile üretilmiştir. Karakter ilişkilerinde (örn: "oğlunun kocası") veya olaylarda mantık hataları ve tutarsızlıklar olabilir.
+            </p>
         </div>
     </div>
 
@@ -67,7 +86,7 @@
         const state = {
             view: 'loading', 
             gameMode: null, 
-            episodeList: [], // GitHub'dan çekilen liste buraya gelecek
+            episodeList: [], 
             activeEpisodeMeta: null,
             activeEpisodeData: null,
             activeDifficulty: null,
@@ -77,9 +96,9 @@
                 score: 0,
                 correctCount: 0,
                 streak: 0,
-                history: [] // Cevap geçmişini tutar: { question, userOpt, correctOpt, isCorrect }
+                history: [] 
             },
-            isReviewing: false, // Sonuç ekranında inceleme modu
+            isReviewing: false, 
             userProgress: JSON.parse(localStorage.getItem('ts_quiz_gh_progress')) || { totalScore: 0 }
         };
 
@@ -87,7 +106,6 @@
 
         async function fetchEpisodeList() {
             try {
-                // Eğer klasör boş ise root (ana dizin) içeriğini çek
                 const path = GITHUB_FOLDER ? `/${GITHUB_FOLDER}` : '';
                 const apiUrl = `https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/contents${path}`;
                 
@@ -96,7 +114,6 @@
                 
                 const data = await res.json();
 
-                // Dizi olup olmadığını kontrol et
                 if (!Array.isArray(data)) {
                      throw new Error("GitHub verisi liste formatında gelmedi.");
                 }
@@ -166,17 +183,12 @@
             fetchEpisodeList(); 
         }
 
-        // --- DÜZELTİLEN FONKSİYON BURASI ---
         function startQuiz(difficulty) {
             const epData = state.activeEpisodeData;
             const storageId = epData.id || state.activeEpisodeMeta.id;
             
             if (state.gameMode === 'story' && !state.userProgress[storageId].unlocked[difficulty]) return;
 
-            // DÜZELTME: Senin JSON yapında "questions" anahtarı yok, direkt "kolay", "orta" kökte duruyor.
-            // Bu yüzden önce direkt kökte var mı diye bakıyoruz (epData[difficulty]).
-            // Eğer yoksa, eski yapıya göre "questions" içinde mi diye bakıyoruz.
-            
             let pool = null;
             if (epData[difficulty]) {
                 pool = epData[difficulty];
@@ -189,6 +201,8 @@
                 return;
             }
 
+            // SORULARI KARIŞTIRMA (SHUFFLE) İŞLEMİ BURADA YAPILIYOR
+            // [...pool] kopyasını alıp .sort(random) ile karıştırıyoruz.
             state.quiz.questions = [...pool].sort(() => 0.5 - Math.random()).slice(0, 10);
             
             state.activeDifficulty = difficulty;
@@ -196,15 +210,26 @@
             state.quiz.score = 0;
             state.quiz.correctCount = 0;
             state.quiz.streak = 0;
-            state.quiz.history = []; // Geçmişi sıfırla
+            state.quiz.history = []; 
             state.isReviewing = false;
             
             setView('quiz');
         }
 
-        function handleAnswer(selectedOpt) {
+        // DÜZELTME: Artık metin yerine index (sayı) alıyor. Tırnak işareti sorununu çözer.
+        function handleAnswer(optIndex) {
+            // Çift tıklamayı önlemek için butonları hemen kilitleyelim
+            const allBtns = document.querySelectorAll('.option-btn');
+            // Eğer zaten birine basıldıysa işlem yapma
+            let alreadyClicked = false;
+            allBtns.forEach(btn => {
+                if(btn.disabled) alreadyClicked = true;
+                btn.disabled = true; // Hepsini kilitle
+            });
+            if(alreadyClicked) return;
+
             const currentQ = state.quiz.questions[state.quiz.currentQIndex];
-            const optIndex = currentQ.secenekler.indexOf(selectedOpt);
+            const selectedOpt = currentQ.secenekler[optIndex]; // Metni index'ten bul
             const optLetter = String.fromCharCode(65 + optIndex);
             const isCorrect = optLetter === currentQ.dogru;
 
@@ -221,7 +246,7 @@
             const btn = document.getElementById(`btn-${optIndex}`);
             
             if (isCorrect) {
-                state.quiz.score += POINTS[state.activeDifficulty] + (state.quiz.streak * 2); // Streak bonus
+                state.quiz.score += POINTS[state.activeDifficulty] + (state.quiz.streak * 2); 
                 state.quiz.correctCount++;
                 state.quiz.streak++;
                 btn.classList.add('bg-green-600', 'border-green-400', 'correct-glow');
@@ -240,9 +265,6 @@
             }
 
             lucide.createIcons();
-
-            // Butonları kilitle
-            document.querySelectorAll('.option-btn').forEach(b => b.disabled = true);
 
             setTimeout(() => {
                 if (state.quiz.currentQIndex < state.quiz.questions.length - 1) {
@@ -275,7 +297,6 @@
             saveProgress();
             setView('result');
 
-            // Konfeti Efekti
             if (isPassed) {
                 triggerConfetti();
             }
@@ -384,7 +405,7 @@
                             İlerlemeyi Sıfırla
                         </button>
                         <div class="text-[10px] text-slate-600 font-mono">
-                            v2.1 • GitHub Linked
+                            v2.4 • Disclaimer Added
                         </div>
                     </div>
                 </div>
@@ -443,7 +464,6 @@
             const progress = state.userProgress[storageId];
             const modeText = state.gameMode === 'story' ? 'Hikaye Modu' : 'Serbest Mod';
 
-            // JSON yapısında title yoksa dosya adını kullan
             const displayTitle = epData.title || state.activeEpisodeMeta.titleDisplay;
             const displayDesc = epData.desc || "Bilgini test etmeye hazır mısın?";
 
@@ -544,7 +564,7 @@
 
                         <div class="grid gap-3">
                             ${currentQ.secenekler.map((opt, idx) => `
-                                <button id="btn-${idx}" onclick="handleAnswer('${opt}')" 
+                                <button id="btn-${idx}" onclick="handleAnswer(${idx})" 
                                     class="option-btn w-full p-4 text-left bg-slate-800/50 hover:bg-slate-700 border border-slate-600 rounded-xl transition-all flex items-center gap-4 group btn-hover active:scale-[0.98]">
                                     <span class="w-8 h-8 flex-shrink-0 flex items-center justify-center rounded-lg bg-slate-900 text-slate-400 font-bold text-sm border border-slate-700 group-hover:border-slate-500 group-hover:text-white transition-colors">
                                         ${String.fromCharCode(65 + idx)}
@@ -570,10 +590,8 @@
             let html = `
                 <div class="w-full max-w-md text-center fade-in flex flex-col justify-center min-h-[90vh] py-8">
                     
-                    <!-- Skor Kartı -->
                     ${!state.isReviewing ? `
                     <div class="glass-panel p-8 rounded-3xl border-t-4 ${borderColor} shadow-2xl relative overflow-hidden mb-6">
-                        <!-- Arkaplan glow efekti -->
                         <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-gradient-to-b ${isPassed ? 'from-green-500/10' : 'from-red-500/10'} to-transparent pointer-events-none"></div>
                         
                         <div class="relative z-10">
@@ -605,7 +623,6 @@
                     </div>
                     ` : ''}
 
-                    <!-- İnceleme Modu (Review Mode) -->
                     ${state.isReviewing ? `
                     <div class="fade-in">
                         <div class="flex justify-between items-center mb-4">
@@ -649,7 +666,6 @@
             lucide.createIcons();
         }
 
-        // Başlat
         init();
 
     </script>
